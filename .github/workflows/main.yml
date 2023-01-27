@@ -13,5 +13,5 @@ jobs:
       with:
         server: ${{ secrets.ENV_1_SERVER }}
         username: ${{ secrets.ENV_2_USERMAN }} 
-        password: ${{ secrets.ENV_3_PASSWORD }}
+        password: ${{ secrets.ENV_3_PASSWORD }} 
         server-dir : public_html/
